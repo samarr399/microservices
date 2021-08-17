@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: limit-services
+  cloud:
+    config:
+      import-check:
+        enabled: false
+
+limit-service:
+  minimum: 99
+  maximum: 999
+
+
+
+
